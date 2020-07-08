@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One|Jua|Text+Me+One&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+    background-image: url("../Images/blue-2384333_1920.png"); /* The image used */
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  /*
+   background: repeating-radial-gradient(closest-side at 25px 35px, #51a6e4 20%, #69C0FF 40%);
+      
+                      background-size:60px 60px;
+                      height: 200px;
+
+                        background: #5A2683;
+  background: -webkit-linear-gradient(top, #5A2683, #E36F78);
+  background: -moz-linear-gradient(top, #5A2683, #E36F78);
+  background: linear-gradient(to bottom, #5A2683, #E36F78);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  */
+  nav>a>img{
+      width:45px;
+  }
+  .indexart1 {
+    color: white;
+    padding: 5px;
+
+}
+.indexart1 > h2 {
+  background: #5A2683;
+background: -webkit-linear-gradient(top, #5A2683, #E36F78);
+background: -moz-linear-gradient(top, #5A2683, #E36F78);
+background: linear-gradient(to bottom, #5A2683, orangered);
+-webkit-background-clip: text;
+font-size: 100px;
+-webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: myFirstFont;
+}
+
+.indexart1 > h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Text Me One', sans-serif;
+}
+
+.indexart1 > p {
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer > div {
+    font-family: 'Bubbler One', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer > div > h4 {
+  font-size: 16px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../Fonts/KalamRegular.woff);
+  font-weight: bold;
+}
+
+.indexpage{
+  color:black ;
+}
+.inventory{
+  background-color: #0073f778;
+    color: white;
+    border-radius: 0px 20px;
+    padding: 20px;
+
+  border: 2px solid orangered;
+}
+.inventory a img{
+  height: 200px;
+  border-radius: 0px 20px;
+}
+.inventory a img:hover {
+  transform: translate(-10%, -10%);
+  filter: grayscale(70%);
+}
+iframe{
+  height: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width:576px) {
+  iframe{
+    height: 100%;
+    width: 100%;
+  }
+  .productspage div img {
+    height: 250px !important;
+    width: 350px !important;
+  }
+  .productspage div{
+    padding: 1px !important;
+  }
+  .indexart1 > h2 {
+    font-size: 60px;
+  }
+  .indexart1 > h1 {
+    font-size: 20px;
+    color: black;
+  }
+}
+
+/*Contact Us */
+.contact_us{
+  background-image: url("../Images/gradient-bg.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 0px 25px;
+  font-family: myFirstFont;
+  
+}
+.productspage div img{
+  height: 300px;
+  width: 500px;
+  float: left;
+  transition: width 2s;
+}
+.productspage div img:hover {
+  height: 500px;
+  width: 700px;
+}
+.productspage div:nth-of-type(n+9){
+  color: white;
+}
+
+.productspage div{  
+  padding: 12px 0px 130px 0px;
+  text-align: justify;
+}
+form{
+  padding: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.mapouter{position:relative;
+  text-align:right;
+  height:100%;
+  width:100%;}
+.gmap_canvas {overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100%;}
+.gmap_canvas>iframe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 0px 20px;
+  box-shadow: inset -8px -8px 11px 1px #F44336; 
+}
